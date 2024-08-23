@@ -1,0 +1,20 @@
+pkgbase = android-app-utils-git
+	pkgdesc = Android application utilities.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.1.1.r0.g910cc24be60717a8a08c71634258df418556158b
+	pkgrel = 1
+	url = https://github.com/themartiancompany/android-app-utils
+	arch = any
+	groups = hip
+	groups = hip-git
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	makedepends = curl
+	makedepends = jq
+	depends = android-utils
+	provides = android-app-utils=0.0.0.0.0.0.0.0.0.0.0.0.1.1.r0.g910cc24be60717a8a08c71634258df418556158b
+	conflicts = android-app-utils
+	source = android-app-utils.tar.gz::https://github.com/themartiancompany/android-app-utils/archive/refs/heads/master.tar.gz
+	sha256sums = SKIP
+
+pkgname = android-app-utils-git
